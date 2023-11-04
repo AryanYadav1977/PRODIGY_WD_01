@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    color: #2c3044;
+    overflow-x: hidden;
+}
+
+header {
+    position: static;
+    display: flex;
+    background-color: grey;
+    font-size: 5vw;
+    align-items: center;
+    text-align: left;
+}
+
+header img {
+    width: 10vw;
+    height: auto;
+}
+
+.black_back {
+    font-family: Roboto Condensed;
+    font-weight: bolder;
+    padding: 1px;
+    background: black;
+    color: white;
+}
+
+.other_half {
+    font-family: Roboto Condensed;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 74%;
+    background-color: red;
+    color: white;
+}
+
+
+h2 {
+    font-size: 50px;
+    font-family: Mulish;
+}
+
+.background_img {
+
+    background: url('C:/Users/aryan/OneDrive/Desktop/Html Css projects/background_img.jpg') no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 25vw;
+    background-attachment: fixed;
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+}
+
+
+p {
+    font-size: 2vw;
+    text-align: left;
+    width: 70vw;
+    margin: 100px auto;
+}
+
+.box_container {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.box {
+
+    width: 30vw;
+    height: 500px;
+    margin: 5% 2%;
+    color: #2c3044;
+    border-radius: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #403c3b;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.box:hover {
+    transform: scale(1.04);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.box_header {
+    display: flex;
+    background-color: #ee6352;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    padding: 10px 0;
+}
+
+.box_profile_photo {
+    margin: 0px auto;
+    width: 56%;
+    display: flex;
+    justify-content: center;
+    background-color: #3e3a39;
+
+
+}
+
+a {
+    color: black;
+}
+
+.box span {
+    border-radius: 30px;
+    padding: 1px;
+}
+
+.videos_container {
+
+    width: fit-content;
+    height: auto;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    display: space-evenly;
+
+
+}
+
+.DWMC_videos {
+    width: 25vw;
+    height: 13vw;
+}
+
+
+
+
+footer {
+    background-color: #eee;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socials {
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    flex-direction: column;
+
+}
+
+.insta {
+
+    width: 50px;
+    height: auto;
+}
+
+.insta:hover {
+    opacity: 0.8
+}
+
+.facebook {
+
+    width: 50px;
+    height: auto;
+}
+
+.facebook:hover {
+    opacity: 0.8;
+}
